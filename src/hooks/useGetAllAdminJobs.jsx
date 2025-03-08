@@ -22,7 +22,7 @@ const useGetAllAdminJobs = () => {
             }
         };
         fetchAllAdminJobs();
-    }, [dispatch]); // Include dispatch in the dependency array
+    }, [dispatch]); 
 };
 
 
